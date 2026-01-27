@@ -41,15 +41,17 @@ export default function PortfolioClient() {
 
             <Section>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <PortfolioItem
+                  <PortfolioItem
+                        image="/web_app_ui.png"
                         title="Fintech Dashboard"
                         category="UI/UX Design"
-                        link="/portfolio/fintech"
+                        link="https://www.figma.com/design/UsLsyNcS6GwTSxfZ0IcRol/XENPOP-Mining-App--Copy-?node-id=0-1&p=f&t=zvT2kOceu6UrxBZu-0"
                     />
                     <PortfolioItem
+                        image="/web_app.png"
                         title="EcoEats Delivery"
-                        category="Mobile App"
-                        link="/portfolio/ecoeats"
+                        category="Web App"
+                        link="https://xenpop.com/"
                     />
                     <PortfolioItem
                         title="Neon Brand"
@@ -57,14 +59,16 @@ export default function PortfolioClient() {
                         link="/portfolio/neon"
                     />
                     <PortfolioItem
-                        title="Arch Studio"
+                        image="/website.png"
+                        title="Outreaching"
                         category="Web Development"
-                        link="/portfolio/arch"
+                        link="https://outreaching.io/"
                     />
                     <PortfolioItem
-                        title="Crypto Wallet"
-                        category="Web App"
-                        link="/portfolio/crypto"
+                        image="/motionwizz.png"
+                        title="MotionWizz"
+                        category="Web Development"
+                        link="https://motionwizz.com/"
                     />
                     <PortfolioItem
                         title="Health Tracker"

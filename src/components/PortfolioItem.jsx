@@ -4,12 +4,12 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function PortfolioItem({ title, category, image, link }) {
     return (
-        <Link href={link || '#'} className="group block relative overflow-hidden rounded-3xl">
+        <Link target="_blank" href={link || '#'} className="group block relative overflow-hidden rounded-3xl">
             <div className="relative aspect-[4/3] w-full overflow-hidden">
                 {/* Placeholder for actual image if not provided */}
                 <div className={`w-full h-full bg-zinc-800 transition-transform duration-500 group-hover:scale-105 ${image ? '' : 'flex items-center justify-center'}`}>
                     {image ? (
-                        <Image src={image} alt={title} fill className="object-cover" />
+                        <Image src={image} alt={title} fill className="object-cover object-center" />
                     ) : (
                         <span className="text-zinc-600 font-bold text-xl">Project Preview</span>
                     )}

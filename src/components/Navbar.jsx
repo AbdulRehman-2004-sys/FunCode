@@ -27,7 +27,7 @@ export default function Navbar() {
     const [servicesOpen, setServicesOpen] = useState(false);
 
     return (
-        <nav className=" text-white absolute w-full z-50 border-b border-charcoal-light">
+        <nav className=" text-white absolute w-full z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial="hidden"

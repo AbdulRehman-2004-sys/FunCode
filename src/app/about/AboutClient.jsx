@@ -73,10 +73,10 @@ export default function AboutClient() {
             </motion.section>
 
             <Section className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="relative aspect-square bg-zinc-800 rounded-3xl overflow-hidden">
+                <div className="relative aspect-square rounded-3xl overflow-hidden">
                     <div className="absolute inset-0 flex items-center justify-center text-zinc-600">
                         <Image
-                            src="/imges/about.jpg"
+                            src="/services/team.png"
                             alt="About FunCode Team"
                             fill
                             className="object-cover"
