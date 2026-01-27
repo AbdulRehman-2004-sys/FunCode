@@ -1,5 +1,6 @@
 import { Inter, Roboto_Flex } from "next/font/google";
 import "./globals.css";
+import Preloader from "../components/Preloader";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import SmoothScroll from "../components/SmoothScroll";
@@ -79,6 +80,8 @@ export const metadata = {
   },
 };
 
+import { LoadingProvider } from "../context/LoadingContext";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -86,12 +89,15 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
         className={`${inter.variable} ${robotoFlex.variable} antialiased`}
       >
-        <JsonLd />
-        <SmoothScroll>
-          <Navbar />
-          {children}
-          <Footer />
-        </SmoothScroll>
+        <LoadingProvider>
+          <Preloader />
+          <JsonLd />
+          <SmoothScroll>
+            <Navbar />
+            {children}
+            <Footer />
+          </SmoothScroll>
+        </LoadingProvider>
         <ToastContainer
           position="bottom-right"
           theme="dark"

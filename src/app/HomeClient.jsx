@@ -24,6 +24,8 @@ import { AnimatePresence } from "framer-motion";
 import VariableProximity from "@/components/VariableProximity";
 // import Antigravity from "@/components/Antigravity";
 import ElectricBorder from "@/components/ElectricBorder";
+import DotGrid from "@/components/DotGrid";
+import { useLoading } from "../context/LoadingContext";
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
@@ -44,6 +46,7 @@ export default function HomeClient() {
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
     const [isAutoPlaying, setIsAutoPlaying] = useState(true);
     const containerRef = useRef(null);
+    const { isComplete } = useLoading();
 
     const testimonials = [
         {
@@ -129,15 +132,29 @@ export default function HomeClient() {
             {/* Hero Section */}
             <motion.section
                 initial="hidden"
-                animate="visible"
+                animate={isComplete ? "visible" : "hidden"}
                 variants={staggerContainer}
                 className="relative min-h-screen pt-32 px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center overflow-hidden"
-                style={{
-                    backgroundImage: "url(/imges/hero6.png)",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                }}
+            // style={{
+            //     backgroundImage: "url(/imges/hero6.png)",
+            //     backgroundSize: "cover",
+            //     backgroundPosition: "center",
+            // }}
             >
+                <div style={{ width: '100%', height: '100vh', position: 'absolute', top: 0, left: 0 }}>
+                    <DotGrid
+                        dotSize={5}
+                        gap={15}
+                        baseColor="#271E37"
+                        activeColor="#5FC0E0"
+                        proximity={120}
+                        shockRadius={250}
+                        shockStrength={5}
+                        resistance={750}
+                        returnDuration={1.5}
+                    />
+                </div>
+
                 <ElectricBorder
                     color="#5FC0E0"
                     speed={1}
@@ -190,14 +207,14 @@ export default function HomeClient() {
                 </motion.h1>
                 <motion.p
                     variants={fadeInUp}
-                    className="text-lg md:text-2xl text-gray-400 max-w-3xl mb-7"
+                    className="text-lg md:text-2xl text-gray-400 max-w-3xl mb-7 z-50"
                 >
                     A full-service digital agency specializing in UI/UX design, web
                     development, and branding for bold companies.
                 </motion.p>
                 <motion.div
                     variants={fadeInUp}
-                    className="flex flex-col sm:flex-row gap-4"
+                    className="flex flex-col sm:flex-row gap-4 z-50"
                 >
                     <Button className="" href="/contact">
                         Start a Project
@@ -241,6 +258,18 @@ export default function HomeClient() {
                         </a>
                     </div>
                 </motion.div>
+
+                {/* <DotGrid
+                    dotSize={5}
+                    gap={15}
+                    baseColor="#271E37"
+                    activeColor="#5227FF"
+                    proximity={120}
+                    shockRadius={250}
+                    shockStrength={5}
+                    resistance={750}
+                    returnDuration={1.5}
+                /> */}
             </motion.section>
 
             {/* Testimonials Slider */}
@@ -399,7 +428,7 @@ export default function HomeClient() {
                             Selected work
                         </h2>
                         <p className="text-gray-400 text-lg">
-                            Check out some of our recent projects and case studies.
+                            A selection of projects crafted for our clients.
                         </p>
                     </div>
                     <Button href="/portfolio" variant="outline" className="mt-6 md:mt-0">
@@ -415,8 +444,8 @@ export default function HomeClient() {
                     />
                     <PortfolioItem
                         image="/web_app.png"
-                        title="EcoEats Delivery"
-                        category="Mobile App"
+                        title="Xenpop Mining App"
+                        category="Web App"
                         link="https://xenpop.com/"
                     />
                     <PortfolioItem
