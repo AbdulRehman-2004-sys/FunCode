@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import JsonLd from "../components/JsonLd";
-// metabase  metadataBase: new URL("https://www.yourwebsite.com"),
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const robotoFlex = Roboto_Flex({
   subsets: ["latin"],
@@ -16,6 +16,7 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://funcodeofficial.com"),
   title: {
     default: "FunCode | Creative Digital Agency",
     template: "FunCode | %s",

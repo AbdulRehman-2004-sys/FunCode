@@ -52,14 +52,14 @@ export default function Footer() {
                     <div>
                         <h4 className="text-lg font-bold mb-6">Get in Touch</h4>
                         <ul className="space-y-3 text-gray-400">
-                            <li><a href="mailto:hello@agency.com" className="hover:text-[#5FC0E0] transition-colors">hello@agency.com</a></li>
-                            <li><a href="tel:+1234567890" className="hover:text-[#5FC0E0] transition-colors">+92 313 4059969</a></li>
+                            <li><a href="mailto:funcoderyk2024@gmail.com" className="hover:text-[#5FC0E0] transition-colors">funcoderyk2024@gmail.com</a></li>
+                            <li><a href="tel:+923134059969" className="hover:text-[#5FC0E0] transition-colors">+92 313 4059969</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-zinc-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
-                    <p>© {new Date().getFullYear()} Agency. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} FunCode. All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <Link href="/privacy" className="hover:text-[#5FC0E0] transition-colors">Privacy Policy</Link>
                         <Link href="/terms" className="hover:text-[#5FC0E0] transition-colors">Terms of Service</Link>

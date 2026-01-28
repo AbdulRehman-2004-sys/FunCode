@@ -103,7 +103,7 @@ export default function ContactClient() {
                             </div>
                             <div>
                                 <h3 className="font-bold text-lg">Email Us</h3>
-                                <p className="text-gray-400">hello@agency.com</p>
+                                <p className="text-gray-400">funcoderyk2024@gmail.com</p>
                             </div>
                         </div>
                         <div className="flex items-start">
@@ -118,7 +118,7 @@ export default function ContactClient() {
                     </div>
 
                     <div className="mt-12 bg-zinc-900 p-8 rounded-3xl">
-                        <h3 className="text-xl font-bold mb-4">Office Hours</h3>
+                        <h3 className="text-xl font-bold mb-4">Working Hours</h3>
                         <p className="text-gray-400">Monday - Friday: 9am - 6pm</p>
                         <p className="text-gray-400">Saturday - Sunday: Closed</p>
                     </div>

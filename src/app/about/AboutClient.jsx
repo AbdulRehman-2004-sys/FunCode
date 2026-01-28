@@ -1,34 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import Section from "../../components/ui/Section";
-import Button from "../../components/ui/Button";
 import Image from "next/image";
-import FlyingPosters from "@/components/FlyingPosters ";
-import ProfileCard from "@/components/ProfileCard";
 import CircularGallery from "@/components/CircularGallery";
-
-const team = [
-    {
-        name: "Abdul Rehman",
-        position: "Frontend Developer",
-        image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
-    },
-    {
-        name: "Usama Noor",
-        position: "UI/UX Designer",
-        image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
-    },
-    {
-        name: "Hamid Javed",
-        position: "Backend Developer",
-        image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
-    },
-    {
-        name: "Arslan Ali",
-        position: "Video Editor",
-        image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
-    },
-];
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
@@ -46,11 +20,7 @@ const staggerContainer = {
 };
 
 export default function AboutClient() {
-    const items = [
-        "https://picsum.photos/500/500?grayscale",
-        "https://picsum.photos/600/600?grayscale",
-        "https://picsum.photos/400/400?grayscale",
-    ];
+
     return (
         <main>
             <motion.section

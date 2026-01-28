@@ -1,11 +1,11 @@
 import AboutClient from "./AboutClient";
 
 export const metadata = {
-  title: "FunCode | About Us",
+  title: "About Us",
   description:
     "Learn more about FunCode, a team of passionate designers, developers, and strategists committed to digital innovation.",
   alternates: {
-    canonical: "https://funcode-agency.com/about",
+    canonical: "https://funcodeofficial.com/about",
   },
 };
 

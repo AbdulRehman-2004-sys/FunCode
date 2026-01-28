@@ -1,7 +1,7 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Home",
+  title: "FunCode",
   description:
     "Welcome to FunCode - Your partner for high-performance web development, premium UI/UX design, and strategic digital branding.",
   alternates: {
