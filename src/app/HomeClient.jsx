@@ -202,14 +202,14 @@ export default function HomeClient() {
                 </motion.h1>
                 <motion.p
                     variants={fadeInUp}
-                    className="text-lg md:text-2xl text-gray-400 max-w-3xl mb-7 z-50"
+                    className="text-lg md:text-2xl text-gray-400 max-w-3xl mb-7 z-30"
                 >
                     A full-service digital agency specializing in UI/UX design, web
                     development, and branding for bold companies.
                 </motion.p>
                 <motion.div
                     variants={fadeInUp}
-                    className="flex flex-col sm:flex-row gap-4 z-50"
+                    className="flex flex-col sm:flex-row gap-4 z-30"
                 >
                     <Button className="" href="/contact">
                         Start a Project
