@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://funcode-agency.com/sitemap.xml",
+    sitemap: "https://funcodeofficial.com/sitemap.xml",
   };
 }

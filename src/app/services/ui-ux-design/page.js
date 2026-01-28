@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Crafting intuitive and engaging user experiences. Our UI/UX design services include user research, wireframing, prototyping, and stunning visual design.",
   alternates: {
-    canonical: "https://funcode-agency.com/services/ui-ux-design",
+    canonical: "https://funcodeofficial.com/services/ui-ux-design",
   },
 };
 

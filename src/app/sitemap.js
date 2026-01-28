@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://funcode-agency.com";
+  const baseUrl = "https://funcodeofficial.com";
 
   const pages = [
     "",

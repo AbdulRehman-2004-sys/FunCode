@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Boost your online visibility with our expert SEO and digital marketing services. Technical SEO, on-page optimization, and targeted marketing campaigns.",
   alternates: {
-    canonical: "https://funcode-agency.com/services/seo-marketing",
+    canonical: "https://funcodeofficial.com/services/seo-marketing",
   },
 };
 

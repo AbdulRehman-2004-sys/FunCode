@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "High-performance web development using Next.js, React, Wordpress, and Webflow. Scalable and secure solutions for your business.",
   alternates: {
-    canonical: "https://funcode-agency.com/services/web-development",
+    canonical: "https://funcodeofficial.com/services/web-development",
   },
 };
 

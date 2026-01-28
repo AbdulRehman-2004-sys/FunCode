@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "High-quality video production and post-production for commercials, social media, and corporate videos. Tell your story through professional visual storytelling.",
   alternates: {
-    canonical: "https://funcode-agency.com/services/video-editing",
+    canonical: "https://funcodeofficial.com/services/video-editing",
   },
 };
 

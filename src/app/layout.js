@@ -18,7 +18,7 @@ const robotoFlex = Roboto_Flex({
 export const metadata = {
   title: {
     default: "FunCode | Creative Digital Agency",
-    template: "%s | FunCode",
+    template: "FunCode | %s",
   },
   description:
     "FunCode is a creative digital agency crafting premium web experiences, UI/UX design, and innovative branding solutions for forward-thinking brands.",
