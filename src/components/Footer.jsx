@@ -52,7 +52,7 @@ export default function Footer() {
                     <div>
                         <h4 className="text-lg font-bold mb-6">Get in Touch</h4>
                         <ul className="space-y-3 text-gray-400">
-                            <li><a href="mailto:funcoderyk2024@gmail.com" className="hover:text-[#5FC0E0] transition-colors">funcoderyk2024@gmail.com</a></li>
+                            <li><a href="mailto:support@mail.funcodeofficial.com" className="hover:text-[#5FC0E0] transition-colors">support@mail.funcodeofficial.com</a></li>
                             <li><a href="tel:+923134059969" className="hover:text-[#5FC0E0] transition-colors">+92 313 4059969</a></li>
                         </ul>
                     </div>

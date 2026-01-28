@@ -103,7 +103,7 @@ export default function ContactClient() {
                             </div>
                             <div>
                                 <h3 className="font-bold text-lg">Email Us</h3>
-                                <p className="text-gray-400">funcoderyk2024@gmail.com</p>
+                                <p className="text-gray-400">support@mail.funcodeofficial.com</p>
                             </div>
                         </div>
                         <div className="flex items-start">
