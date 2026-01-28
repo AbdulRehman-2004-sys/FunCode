@@ -43,21 +43,21 @@ export default function PortfolioClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <PortfolioItem
                         image="/web_app_ui.png"
-                        title="Fintech Dashboard"
+                        title="Xenpop Mining App"
                         category="UI/UX Design"
                         link="https://www.figma.com/design/UsLsyNcS6GwTSxfZ0IcRol/XENPOP-Mining-App--Copy-?node-id=0-1&p=f&t=zvT2kOceu6UrxBZu-0"
                     />
                     <PortfolioItem
                         image="/web_app.png"
-                        title="EcoEats Delivery"
+                        title="Xenpop Mining App"
                         category="Web App"
                         link="https://xenpop.com/"
                     />
-                    <PortfolioItem
+                    {/* <PortfolioItem
                         title="Neon Brand"
                         category="Branding"
                         link="/portfolio/neon"
-                    />
+                    /> */}
                     <PortfolioItem
                         image="/website.png"
                         title="Outreaching"
@@ -70,11 +70,11 @@ export default function PortfolioClient() {
                         category="Web Development"
                         link="https://motionwizz.com/"
                     />
-                    <PortfolioItem
+                    {/* <PortfolioItem
                         title="Health Tracker"
                         category="Mobile App"
                         link="/portfolio/health"
-                    />
+                    /> */}
                 </div>
             </Section>
         </main>

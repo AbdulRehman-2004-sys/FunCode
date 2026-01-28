@@ -135,11 +135,6 @@ export default function HomeClient() {
                 animate={isComplete ? "visible" : "hidden"}
                 variants={staggerContainer}
                 className="relative min-h-screen pt-32 px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center overflow-hidden"
-            // style={{
-            //     backgroundImage: "url(/imges/hero6.png)",
-            //     backgroundSize: "cover",
-            //     backgroundPosition: "center",
-            // }}
             >
                 <div style={{ width: '100%', height: '100vh', position: 'absolute', top: 0, left: 0 }}>
                     <DotGrid
@@ -259,17 +254,7 @@ export default function HomeClient() {
                     </div>
                 </motion.div>
 
-                {/* <DotGrid
-                    dotSize={5}
-                    gap={15}
-                    baseColor="#271E37"
-                    activeColor="#5227FF"
-                    proximity={120}
-                    shockRadius={250}
-                    shockStrength={5}
-                    resistance={750}
-                    returnDuration={1.5}
-                /> */}
+              
             </motion.section>
 
             {/* Testimonials Slider */}
@@ -438,7 +423,7 @@ export default function HomeClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <PortfolioItem
                         image="/web_app_ui.png"
-                        title="Fintech Dashboard"
+                        title="Xenpop Mining App"
                         category="UI/UX Design"
                         link="https://www.figma.com/design/UsLsyNcS6GwTSxfZ0IcRol/XENPOP-Mining-App--Copy-?node-id=0-1&p=f&t=zvT2kOceu6UrxBZu-0"
                     />
@@ -448,17 +433,8 @@ export default function HomeClient() {
                         category="Web App"
                         link="https://xenpop.com/"
                     />
-                    <PortfolioItem
-                        title="Neon Brand"
-                        category="Branding"
-                        link="/portfolio/neon"
-                    />
-                    <PortfolioItem
-                        image="/website.png"
-                        title="Outreaching"
-                        category="Web Development"
-                        link="https://outreaching.io/"
-                    />
+                   
+                  
                 </div>
             </Section>
 

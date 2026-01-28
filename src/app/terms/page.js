@@ -1,7 +1,7 @@
 import TermsClient from "./TermsClient";
 
 export const metadata = {
-  title: "Terms of Service | FunCode",
+  title: "FunCode | Terms of Service",
   description: "Read the Terms of Service for FunCode digital agency services.",
 };
 

@@ -1,7 +1,7 @@
 import ServicesClient from "./ServicesClient";
 
 export const metadata = {
-  title: "Our Services",
+  title: "FunCode | Services",
   description:
     "Explore our comprehensive digital solutions: Web Development, App Development, UI/UX Design, SEO Marketing, and Video Editing.",
   alternates: {

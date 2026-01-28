@@ -1,7 +1,7 @@
 import PrivacyClient from "./PrivacyClient";
 
 export const metadata = {
-  title: "Privacy Policy | FunCode",
+  title: "FunCode | Privacy Policy",
   description:
     "Learn how FunCode collects, uses, and protects your personal data in our Privacy Policy.",
 };

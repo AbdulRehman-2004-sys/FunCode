@@ -1,7 +1,7 @@
 import AboutClient from "./AboutClient";
 
 export const metadata = {
-  title: "About Us",
+  title: "FunCode | About Us",
   description:
     "Learn more about FunCode, a team of passionate designers, developers, and strategists committed to digital innovation.",
   alternates: {
